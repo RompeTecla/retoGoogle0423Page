@@ -19,13 +19,31 @@ body {
     height: 100%;
 }
 .encabezado{
-    align-items: center;
+    justify-content: space-between;
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
     height: 4em;
     width: 100%;
     border: #ffff00 solid 0.16em;
+    color: beige;
+}
+.filaA {
+    display: flex;
+}
+.izq {
+    display: flex;    
+    border: #0077ff solid 0.16em;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+}
+
+.der {
+    display: flex;    
+    border: #0077ff solid 0.16em;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
 }
 .central {
     align-items: center;
